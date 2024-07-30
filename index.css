@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bcg-img>img{
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    background-color: rgb(247, 247, 246);
+}
+
+.containt{
+    text-align: center;
+    justify-content: space-around;
+    font-size: 20px;
+    text-decoration:none;
+    padding: 5px;
+}
+
+.containt a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+.searchbox {
+    padding-top: 8px;
+    height: 50px;
+    margin-left:5px;
+}
+
+.searchbox input {
+    text-align: center;
+    justify-content: space-between;
+    border: 1px;
+    border-radius: 10px;
+    height: 2rem;
+}
+
+.searchbox button {
+    width: 80px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: red;
+    color: azure;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 50px;
+}
+
+.data{
+    display: flex;
+    display: inline;
+    width: 40%;
+    background-color: rgb(253, 252, 250);
+}
+
+.data h1{
+    display: inline;
+    font-size: 40px;
+}
+
+.data p {
+    display: inline;
+}
+
+.more {
+    width: 168px;
+    position:relative;
+    border-radius: 1rem;
+    background-color: rgb(231, 224, 212);
+    color: red;
+    padding-left:10px;
+}
+
+.data img {
+    position: absolute;
+    width: 25px;
+    border-radius: 1rem;
+    background-color: white;
+    margin-left: 10px;
+}
+
+.bcg-img  {
+    width: 70%;
+}
+
+.data button {
+    height: 40px;
+    width: 8rem;
+    background-color: red;
+    color: wheat;
+    border-radius: 8px;
+}
+
+.explain {
+    margin: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+.explain img {
+    width: 8rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.explain h3 {
+    display: inline;
+    font-size: 20px;
+
+}
+
+.expalins {
+    border: 5px;
+    border-radius: 20px;
+    width: 20rem;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.expalins h2 {
+    display: inline;
+    font-size: 30px;
+}
+
+.explain p {
+    display: inline;
+}
+
+.chicken {
+    display: inline;
+    border-radius: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.delevery {
+    display: inline;
+    border-radius: 20px;
+    border: 5px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.phone {
+    display: inline;
+    border-radius: 20px;
+    border: 5px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.phone img {
+    height: 8.5rem;
+}
+
+.recipee {
+
+}
+
+.recipee h2{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.navbar-2 {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-2 a {
+    text-decoration: none;
+    margin: 10px;
+}
+
+.recipes {
+    margin: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
+
+.recipes img {
+    height: 15rem;
+}
+
+.b {
+    font-weight: bold;
+}
+
+.c {
+    color: red;
+    font-weight: bold;
+}
+
+.recipes button {
+    height:35px;
+    width: 7rem;
+    color: red;
+    background-color: white;
+    border: 0.5px solid red;
+    border-radius: 10px;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 50px;
+}
+
+.left-detsils {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.profile img {
+    width: 50px;
+    height: 50px;
+}
+
+.profie-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-details h2 {
+    font-size: 48px;
+}
+
+.download {
+    padding: 50px;
+}
+
+.footer {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-container {
+   display: flex;
+   padding-right: 0;
+   justify-content: space-between;
+}
+
+.box-container a{
+    color: black;
+    text-decoration: none ;
+}
+
+.box1{
+    padding-left: 50px;
+    width: 30%;
+}
+.box{
+    display: flex;
+    padding-right: 50px;
+    flex-direction: column;
+}
+
+.name {
+    padding: 50px;
+    text-align: center;
+    color: rgb(16, 3, 14);
+}
